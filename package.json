@@ -16,6 +16,10 @@
     "test": "vitest",
     "verify": "pnpm format && pnpm check && pnpm typecheck && pnpm lint && pnpm test run"
   },
+  "dependencies": {
+    "@fontsource/fira-mono": "^5.2.7",
+    "@neoconfetti/svelte": "^2.2.2"
+  },
   "devDependencies": {
     "@sveltejs/adapter-auto": "^7.0.0",
     "@sveltejs/kit": "^2.50.0",
